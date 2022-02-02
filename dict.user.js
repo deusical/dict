@@ -5,6 +5,7 @@
 // @grant        GM_xmlhttpRequest
 // @grant        unsafeWindow
 // @run-at       document-start
+// @connect      *
 // ==/UserScript==
 
 let observer = new MutationObserver((mutations) => {
